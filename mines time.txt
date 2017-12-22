@@ -30,5 +30,5 @@ void timet() {
  printf("%ld:%ld%:%ld\r",hr,min,sec);
 
 
-    }while(sec < 10000);
+    }while(sec < 10000);//stoping condition
 }
